@@ -1,0 +1,69 @@
+HTTP/1.0 200 OK
+Content-Type: text/xml
+Last-Modified: Wed, 17 Dec 2014 19:15:23 GMT
+ETag: "809741ce2d1ad01:0"
+X-Powered-By: ASP.NET
+Content-Length: 8507
+Accept-Ranges: bytes
+X-VCache: MISS
+Date: Wed, 17 Dec 2014 19:58:06 GMT
+Connection: close
+
+﻿<?xml version="1.0" encoding="utf-8"?>
+<standings>
+   <file-info title="Standings" asof="12/17/2014 2:15:23 PM">file-info</file-info>
+   <headers col_1="Team" col_2="W" col_3="L" col_4="OTL" col_5="PTS" col_6="GF" col_7="GA">headers</headers>
+   <header-data col_1="name" col_2="wins" col_3="losses" col_4="overtime" col_5="points" col_6="goalsFor" col_7="goalsAgainst">header-data</header-data>
+   <divisions num="4">divisions<division Id="1" confId="1">7,13,17,15,10,11,14,12</division><division Id="2" confId="1">5,2,3,8,20,1,4,6</division><division Id="3" confId="2">16,18,19,9,30,21,27</division><division Id="4" confId="2">22,26,24,23,28,25,29</division></divisions>
+   <conferences num="2">conferences<conference Id="1">5,7,2,13,17,15,3,10,8,11,14,20,1,12,4,6</conference><conference Id="2">22,16,18,19,26,24,9,23,28,30,21,27,25,29</conference></conferences>
+   <wildcards>
+      <conference id="1">
+         <seeds>
+            <seed divId="1">7,13,17</seed>
+            <seed divId="2">5,2,3</seed>
+         </seeds>
+         <wild>15,10</wild>
+         <elimination>8,11,14,20,1,12,4,6</elimination>
+      </conference>
+      <conference id="2">
+         <seeds>
+            <seed divId="4">22,26,24</seed>
+            <seed divId="3">16,18,19</seed>
+         </seeds>
+         <wild>9,23</wild>
+         <elimination>28,30,21,27,25,29</elimination>
+      </conference>
+   </wildcards>
+   <info-teams>
+      <team-standing id="7" name="Tampa Bay" wins="20" losses="10" overtime="3" points="43" goalsFor="110" goalsAgainst="87" conference-name="Eastern" division-name="Atlantic" division-id="1" conf-id="1">team-standing</team-standing>
+      <team-standing id="13" name="Montreal" wins="20" losses="10" overtime="2" points="42" goalsFor="87" goalsAgainst="80" conference-name="Eastern" division-name="Atlantic" division-id="1" conf-id="1">team-standing</team-standing>
+      <team-standing id="17" name="Detroit" wins="17" losses="7" overtime="8" points="42" goalsFor="92" goalsAgainst="80" conference-name="Eastern" division-name="Atlantic" division-id="1" conf-id="1">team-standing</team-standing>
+      <team-standing id="15" name="Toronto" wins="19" losses="9" overtime="3" points="41" goalsFor="109" goalsAgainst="87" conference-name="Eastern" division-name="Atlantic" division-id="1" conf-id="1">team-standing</team-standing>
+      <team-standing id="10" name="Florida" wins="13" losses="8" overtime="8" points="34" goalsFor="66" goalsAgainst="75" conference-name="Eastern" division-name="Atlantic" division-id="1" conf-id="1">team-standing</team-standing>
+      <team-standing id="11" name="Boston" wins="15" losses="13" overtime="3" points="33" goalsFor="78" goalsAgainst="81" conference-name="Eastern" division-name="Atlantic" division-id="1" conf-id="1">team-standing</team-standing>
+      <team-standing id="14" name="Ottawa" wins="12" losses="12" overtime="6" points="30" goalsFor="80" goalsAgainst="86" conference-name="Eastern" division-name="Atlantic" division-id="1" conf-id="1">team-standing</team-standing>
+      <team-standing id="12" name="Buffalo" wins="13" losses="17" overtime="2" points="28" goalsFor="62" goalsAgainst="100" conference-name="Eastern" division-name="Atlantic" division-id="1" conf-id="1">team-standing</team-standing>
+      <team-standing id="5" name="Pittsburgh" wins="20" losses="6" overtime="4" points="44" goalsFor="98" goalsAgainst="71" conference-name="Eastern" division-name="Metropolitan" division-id="2" conf-id="1">team-standing</team-standing>
+      <team-standing id="2" name="NY Islanders" wins="21" losses="10" overtime="0" points="42" goalsFor="99" goalsAgainst="89" conference-name="Eastern" division-name="Metropolitan" division-id="2" conf-id="1">team-standing</team-standing>
+      <team-standing id="3" name="NY Rangers" wins="15" losses="10" overtime="4" points="34" goalsFor="89" goalsAgainst="79" conference-name="Eastern" division-name="Metropolitan" division-id="2" conf-id="1">team-standing</team-standing>
+      <team-standing id="8" name="Washington" wins="14" losses="10" overtime="6" points="34" goalsFor="86" goalsAgainst="81" conference-name="Eastern" division-name="Metropolitan" division-id="2" conf-id="1">team-standing</team-standing>
+      <team-standing id="20" name="Columbus" wins="13" losses="15" overtime="2" points="28" goalsFor="72" goalsAgainst="95" conference-name="Eastern" division-name="Metropolitan" division-id="2" conf-id="1">team-standing</team-standing>
+      <team-standing id="1" name="New Jersey" wins="11" losses="15" overtime="6" points="28" goalsFor="74" goalsAgainst="94" conference-name="Eastern" division-name="Metropolitan" division-id="2" conf-id="1">team-standing</team-standing>
+      <team-standing id="4" name="Philadelphia" wins="11" losses="14" overtime="5" points="27" goalsFor="80" goalsAgainst="90" conference-name="Eastern" division-name="Metropolitan" division-id="2" conf-id="1">team-standing</team-standing>
+      <team-standing id="6" name="Carolina" wins="8" losses="19" overtime="3" points="19" goalsFor="62" goalsAgainst="87" conference-name="Eastern" division-name="Metropolitan" division-id="2" conf-id="1">team-standing</team-standing>
+      <team-standing id="16" name="Chicago" wins="22" losses="9" overtime="1" points="45" goalsFor="100" goalsAgainst="64" conference-name="Western" division-name="Central" division-id="3" conf-id="2">team-standing</team-standing>
+      <team-standing id="18" name="St. Louis" wins="21" losses="8" overtime="2" points="44" goalsFor="94" goalsAgainst="72" conference-name="Western" division-name="Central" division-id="3" conf-id="2">team-standing</team-standing>
+      <team-standing id="19" name="Nashville" wins="20" losses="8" overtime="2" points="42" goalsFor="81" goalsAgainst="59" conference-name="Western" division-name="Central" division-id="3" conf-id="2">team-standing</team-standing>
+      <team-standing id="9" name="Winnipeg" wins="16" losses="10" overtime="6" points="38" goalsFor="78" goalsAgainst="75" conference-name="Western" division-name="Central" division-id="3" conf-id="2">team-standing</team-standing>
+      <team-standing id="30" name="Minnesota" wins="16" losses="12" overtime="1" points="33" goalsFor="84" goalsAgainst="75" conference-name="Western" division-name="Central" division-id="3" conf-id="2">team-standing</team-standing>
+      <team-standing id="21" name="Dallas" wins="11" losses="13" overtime="5" points="27" goalsFor="85" goalsAgainst="103" conference-name="Western" division-name="Central" division-id="3" conf-id="2">team-standing</team-standing>
+      <team-standing id="27" name="Colorado" wins="10" losses="13" overtime="7" points="27" goalsFor="78" goalsAgainst="98" conference-name="Western" division-name="Central" division-id="3" conf-id="2">team-standing</team-standing>
+      <team-standing id="22" name="Anaheim" wins="21" losses="7" overtime="5" points="47" goalsFor="97" goalsAgainst="89" conference-name="Western" division-name="Pacific" division-id="4" conf-id="2">team-standing</team-standing>
+      <team-standing id="26" name="Vancouver" wins="18" losses="10" overtime="2" points="38" goalsFor="89" goalsAgainst="86" conference-name="Western" division-name="Pacific" division-id="4" conf-id="2">team-standing</team-standing>
+      <team-standing id="24" name="San Jose" wins="17" losses="11" overtime="4" points="38" goalsFor="90" goalsAgainst="82" conference-name="Western" division-name="Pacific" division-id="4" conf-id="2">team-standing</team-standing>
+      <team-standing id="23" name="Los Angeles" wins="15" losses="11" overtime="6" points="36" goalsFor="84" goalsAgainst="78" conference-name="Western" division-name="Pacific" division-id="4" conf-id="2">team-standing</team-standing>
+      <team-standing id="28" name="Calgary" wins="17" losses="14" overtime="2" points="36" goalsFor="97" goalsAgainst="90" conference-name="Western" division-name="Pacific" division-id="4" conf-id="2">team-standing</team-standing>
+      <team-standing id="25" name="Arizona" wins="11" losses="16" overtime="4" points="26" goalsFor="72" goalsAgainst="100" conference-name="Western" division-name="Pacific" division-id="4" conf-id="2">team-standing</team-standing>
+      <team-standing id="29" name="Edmonton" wins="7" losses="19" overtime="6" points="20" goalsFor="66" goalsAgainst="106" conference-name="Western" division-name="Pacific" division-id="4" conf-id="2">team-standing</team-standing>
+   </info-teams>
+</standings>                                                                                                                                                                                                                                              
